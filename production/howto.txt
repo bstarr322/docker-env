@@ -1,0 +1,13 @@
+How to use eb cli and kibin with docker
+
+1. download elastic beanstalk CLI
+2. to push externally, type: `eb create kibin-server`
+
+notes:
+* to initilialize, type `eb init` or `eb init --config` to force it
+* to get list of instances, type `eb list`
+* to set (as default) an instance, use `eb use <name of instance>`
+* to check on status of server, use `eb status`
+* to terminate an instance, type `eb terminate`
+* to deploy new code, use `eb deploy`
+* to SSH into instance, type `eb ssh`
