@@ -1,0 +1,10 @@
+How to use eb cli and kibin with docker
+
+1. download elastic beanstalk CLI
+2. create a symlink to your code: `ln -s <kibin source location> kibin`
+3. create a symlink to your mysql db files: `ln -s <mysql location> mysql`
+4. to run instance locally, type: `eb local run`
+
+notes: use `docker ps` to get list of running containers
+
+you can use vagrant to run the mysql server
